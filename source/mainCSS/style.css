@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+}
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+#footer {
+    background-color: #7e7e7e;
+    position: relative;
+    height: 150px;
+    margin-top: -100px;
+    clear: both;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
+    font-size: 40pt;
+    text-shadow: 1px 1px 3px black;
+    font-family: Brush Script MT;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    width: 50%;
+    margin: 25%;
+    font-size: 30px;
+    font-size: 30pt;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* image of myself */
+.img-circle { 
+    border-radius:  50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width:500px;
+    background: #141414;
+    box-shadow: 0 0 15px 10px #141414; 
+}
+
+/* change bootstrap default brand text */
+.navbar-brand {
+    font-family: Brush Script MT;
+    font-size: 300%;
+}
+.nav-link {
+    font-size: 150%;
+}
+
+.carousel-item :active {
+    height: 50%;
+    max-height: 400px;
+    width: 80%;
+}
