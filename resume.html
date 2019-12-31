@@ -6,9 +6,31 @@
   <title>Andrew Polemeni's Resume</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="source/mainCSS/resume.css">
 </head>
 <body>
+  <!-- navbar starts here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" >Andrew Polemeni</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" role="toggle drop down when shrunk"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" role="navbar collapse">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
+            </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+
   <div class="container">
     <section>
       <div>
@@ -61,11 +83,28 @@
         <div class="job">
           <div class="job-title-container">
             <div>
+              <div class="job-company">Stetson University</div>
+              <div class="job-title">Web Developer</div>
+            </div>
+            <div>
+              Jan 2020 - Current
+            </div>
+          </div> <!-- end job-title container -->
+          <div>
+              <ul>
+                <li>Duties include Full Stack Web Developement using the LAMP stack. Keep applications up to date with current SDLC and maintain web accessibility.</li>
+              </ul>
+          </div>
+        </div> <!-- end job -->
+      <div>
+        <div class="job">
+          <div class="job-title-container">
+            <div>
               <div class="job-company">Daytona State College</div>
               <div class="job-title">Student Lab Tech/Administrative Assistant</div>
             </div>
             <div>
-              Jan 2018 - Current
+              Jan 2018 - December 2019
             </div>
           </div> <!-- end job-title container -->
           <div>
@@ -192,17 +231,6 @@
     </section>
     <!-- End skills section -->
 
-    <!-- <section>
-      <div class="section-title">Interests</div>
-      <div class="interests-container">
-        <img src="img/guitar.svg" alt="icon">
-        <img src="img/piano.svg" alt="icon">
-        <img src="img/controller.svg" alt="icon">
-        <img src="img/headphones.svg" alt="icon">
-        <img src="img/monitor.svg" alt="icon">
-      </div>
-    </section> -->
-
     <!-- References Section -->
     <section>
       <div class="section-title">References</div>
@@ -239,4 +267,8 @@
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>
 </body>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
