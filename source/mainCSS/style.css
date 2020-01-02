@@ -61,12 +61,20 @@ p {
 }
 
 /* change bootstrap default brand text */
-.navbar-brand {
+
+
+@font-face {
+    font-family: "Brush Script Std"; 
+    src: url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.eot"); 
+    src: url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.svg#Brush Script Std") format("svg"); 
+}.navbar-brand {
     font-family: Brush Script MT;
     font-size: 300%;
 }
-
-@font-face { font-family: 'BrushScriptStdMedium';src: url('brushscriptstd.eot');src: local('Brush Script Std'), local('BrushScriptStd'), url('brushscriptstd.woff') format('woff'), url('brushscriptstd.ttf') format('truetype');}.classname{ font:21px bold italic  Arial;}
 
 .nav-link {
     font-size: 150%;
