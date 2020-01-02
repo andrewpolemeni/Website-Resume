@@ -24,11 +24,17 @@ html, body {
 h1 {
     color: white;
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
     font-size: 30px;
     font-size: 40pt;
     text-shadow: 1px 1px 3px black;
     font-family: Brush Script MT;
+}
+
+.h1-2 {
+    color: white; 
+    font-family: helvetica; 
+    font-size: 30px;
 }
 
 p {
@@ -60,10 +66,7 @@ p {
     font-size: 300%;
 }
 
-@font-face { font-family: 'BrushScriptStdMedium';
-    src: url('brushscriptstd.eot');
-    src: local('Brush Script Std'), local('BrushScriptStd'), url('brushscriptstd.woff') format('woff'), url('brushscriptstd.ttf') format('truetype');
-}
+@font-face { font-family: 'BrushScriptStdMedium';src: url('brushscriptstd.eot');src: local('Brush Script Std'), local('BrushScriptStd'), url('brushscriptstd.woff') format('woff'), url('brushscriptstd.ttf') format('truetype');}.classname{ font:21px bold italic  Arial;}
 
 .nav-link {
     font-size: 150%;
@@ -72,7 +75,7 @@ p {
 .carousel-item {
     width: 100%;
     height: 100%;
-    height: 70vh;
+    height: 95vh;
     max-height: 550px;
 
 }
