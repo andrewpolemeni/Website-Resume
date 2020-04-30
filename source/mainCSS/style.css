@@ -27,7 +27,6 @@ h1 {
     font-size: 30px;
     font-size: 38pt;
     text-shadow: 1px 1px 3px black;
-    font-family: Brush Script Std;
 }
 p {
     color: white;
@@ -51,19 +50,8 @@ p {
 
 /* change bootstrap default brand text */
 
-@import url(//db.onlinewebfonts.com/c/d44cb84b16ccdec82fa437a516e62b9a?family=Brush+Script+Std);
-
-@font-face {
-    font-family: "Brush Script Std";
-    src: url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.eot");
-    src: url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/d44cb84b16ccdec82fa437a516e62b9a.svg#Brush Script Std") format("svg");
-}.navbar-brand {
-    font-family: Brush Script std;
-    font-size: 250%;
+.navbar-brand {
+    font-size: 150%;
 }
 
 .nav-link {
