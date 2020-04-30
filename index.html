@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <!-- navbar starts here -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Andrew Polemeni</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -23,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNav" role="navbar collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
@@ -33,7 +32,6 @@
     </nav>
     <section>
         <div class="main-slider">
-            <!-- plexus here -->
             <script defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
             <div id="particles-js"></div>
             <div class="container" role="make sure content stays centered">
@@ -43,8 +41,9 @@
                         <img class="img-circle" src="img/andrew.png" alt="Head Shot" loading="lazy">
                         <h2 class="text-white text-center">I'm a Full Stack Web Developer & Cybersecurity Expert</h2>
                         <div class="text-center mb-3" role="place button in center">
-                            <button type="button" class="btn btn-outline-light center-block">View My Work <em
-                                    style='font-size:16px' class='fas'>&#xf061;</em></button>
+                            <button type="button" class="btn btn-outline-light center-block"
+                                onclick="window.location.href='/resume.html'">View My Work <em
+                                    class="fas fa-arrow-right"></em></button>
                         </div>
                     </div>
                 </div>
@@ -52,74 +51,55 @@
         </div>
     </section>
     </div>
-    <!-- contact form goes here -->
     <section>
         <div class="container" role="form container">
-            <form name="contact" method="POST" class="container" role="form container" style="padding-top:0%;"
-                data-netlify="true">
-                <br><br><br>
-                <h3 style="color: rgb(0, 0, 0);">Contact</h3>
-                <h3 style="color: rgb(0, 0, 0); font-size: medium;">Have a question or want to work together?</h3>
-                <!-- name -->
+            <form name="contact" method="POST" class="mb-5 mt-5" role="form container" data-netlify="true">
+                <h3>Contact</h3>
+                <h3 style="font-size: medium;">Have a question or want to work together?</h3>
                 <div class="form-group" role="textbox">
-                    <label for="name" style="color: rgb(0, 0, 0);">Full Name:</label>
+                    <label for="name">Full Name:</label>
                     <input name="name" type="text" class="form-control" aria-label="Name goes here" required>
                 </div>
-                <!-- email -->
                 <div class="form-group" role="textbox">
-                    <label for="email" style="color: rgb(0, 0, 0);">Email:</label>
+                    <label for="email">Email:</label>
                     <input name="email" type="email" class="form-control" aria-label="email goes here" required>
                 </div>
-                <!-- message -->
                 <div class="form-group" role="textbox">
-                    <label for="email" style="color: rgb(0, 0, 0);">Message:</label>
+                    <label for="email">Message:</label>
                     <textarea name="message" type="textarea" class="form-control" rows="5" aria-label="email goes here"
                         required></textarea>
                 </div>
-                <!-- button -->
-                <button type="submit" class="btn btn-dark">Submit</button>
+                <button type="submit" class="btn btn-dark mb-5">Submit</button>
             </form>
         </div>
-        <br><br><br><br><br>
     </section>
 </body>
 <footer class="page-footer font-small grey" style="background-color:#e6e9e9; position: relative;">
-    <!-- Footer -->
     <footer class="page-footer font-small container" style="margin:auto; width:100%; padding:30px; text-align: center;">
-        <!-- Footer Elements -->
         <div class="container">
-            <!-- Grid row-->
             <div class="row">
-                <!-- Grid column -->
                 <div class="col-md-12 py-5">
                     <div class="mb-5 flex-center">
-                        <!--Linkedin -->
                         <a href="https://www.linkedin.com/in/andrew-polemeni/" class="li-ic" target="_blank">
                             <em class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: #212529;"
                                 aria-hidden="true"></em>
                         </a>
-                        <!--Github-->
                         <a href="https://github.com/andrewpolemeni" class="ins-ic" target="_blank">
                             <em class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: #212529;"
                                 aria-hidden="true"></em>
                         </a>
-                        <!-- Twitter -->
                         <a class="tw-ic">
                             <em class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: #212529;"
                                 aria-hidden="true"></em>
                         </a>
-                        <!-- Google +-->
                         <a class="gplus-ic">
                             <em class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: #212529;"
                                 aria-hidden="true"></em>
                         </a>
                     </div>
                 </div>
-                <!-- Grid column -->
             </div>
-            <!-- Grid row-->
         </div>
-        <!-- Footer Elements -->
     </footer>
     <script defer src="/source/js/particles.js"></script>
     <script defer src='https://kit.fontawesome.com/a076d05399.js'></script>

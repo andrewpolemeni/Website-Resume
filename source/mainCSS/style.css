@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 html, body {
     height: 100%;
 }
@@ -26,7 +25,6 @@ h1 {
     margin-top: 2%;
     font-size: 30px;
     font-size: 38pt;
-    text-shadow: 1px 1px 3px black;
 }
 p {
     color: white;
@@ -38,7 +36,6 @@ p {
     font-size: 30pt;
     text-shadow: 1px 1px 3px black;
 }
-
 /* image of myself */
 .img-circle {
     display: block;
@@ -47,13 +44,10 @@ p {
     width: 60%;
     max-width:350px;
 }
-
 /* change bootstrap default brand text */
-
 .navbar-brand {
     font-size: 150%;
 }
-
 .nav-link {
     font-size: 150%;
 }
