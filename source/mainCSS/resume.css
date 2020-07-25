@@ -43,7 +43,6 @@ a:hover {
 section {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-gap: 20px;
   padding: 24px 0;
   border-bottom: 1px solid lightgrey;
 }
@@ -58,7 +57,7 @@ section:last-child {
 }
 
 /***********************************
-* =Main Info
+* Main Info
 ***********************************/
 
 img.avatar {
@@ -98,7 +97,7 @@ img.avatar {
 
 .job {
   padding-bottom: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 5px;
   border-bottom: 1px solid lightgrey;
 }
 
