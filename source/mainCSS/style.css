@@ -62,3 +62,7 @@ p {
     display: flex;
     height: 600px;
 }
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
